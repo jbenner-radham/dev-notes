@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <main><div style={{ backgroundColor: 'tomato', minHeight: '50vh' }} contentEditable></div></main>
     </div>
   );
 }
