@@ -3,6 +3,19 @@
     text-align: center;
 }
 
+.App__links {
+    display: block;
+}
+
+.App__link {
+    list-style-type: none;
+}
+
+.App__link--active {
+    color: #606060;
+    text-decoration: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
